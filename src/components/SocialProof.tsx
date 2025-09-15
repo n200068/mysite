@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { 
   Play, 
   Award, 
-  CheckCircle, 
   Star,
   Users,
   TrendingUp,
@@ -152,7 +151,7 @@ export default function SocialProof() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Сайт готов был за неделю, как и обещал. Конверсия выросла на 40%!"
+                &quot;Сайт готов был за неделю, как и обещал. Конверсия выросла на 40%!&quot;
               </p>
               <div className="font-semibold text-gray-900">Анна К.</div>
               <div className="text-sm text-gray-500">Владелец интернет-магазина</div>
@@ -164,7 +163,7 @@ export default function SocialProof() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Реклама в Директе окупилась за первый месяц. Очень доволен результатом."
+                &quot;Реклама в Директе окупилась за первый месяц. Очень доволен результатом.&quot;
               </p>
               <div className="font-semibold text-gray-900">Михаил С.</div>
               <div className="text-sm text-gray-500">Директор строительной компании</div>
@@ -176,7 +175,7 @@ export default function SocialProof() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Профессиональный подход, всегда на связи. Рекомендую всем!"
+                &quot;Профессиональный подход, всегда на связи. Рекомендую всем!&quot;
               </p>
               <div className="font-semibold text-gray-900">Елена В.</div>
               <div className="text-sm text-gray-500">Владелец салона красоты</div>
