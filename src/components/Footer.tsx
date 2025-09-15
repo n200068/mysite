@@ -5,7 +5,6 @@ import {
   Phone, 
   MessageCircle, 
   Mail, 
-  MapPin,
   ArrowUp,
   Heart
 } from 'lucide-react';
@@ -203,7 +202,7 @@ export default function Footer() {
               viewport={{ once: true }}
               className="flex flex-wrap justify-center md:justify-end space-x-4"
             >
-              {years.map((year, index) => (
+              {years.map((year) => (
                 <span
                   key={year}
                   className={`text-sm transition-colors duration-200 ${

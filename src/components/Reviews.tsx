@@ -4,10 +4,6 @@ import { motion } from 'framer-motion';
 import { 
   Star, 
   Quote, 
-  User, 
-  Calendar,
-  TrendingUp,
-  CheckCircle,
   MessageCircle
 } from 'lucide-react';
 
@@ -176,7 +172,7 @@ export default function Reviews() {
               <div className="mb-6">
                 <Quote className="w-6 h-6 text-gray-300 mb-3" />
                 <p className="text-gray-700 leading-relaxed italic">
-                  "{review.text}"
+                  &quot;{review.text}&quot;
                 </p>
               </div>
 

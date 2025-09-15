@@ -2,10 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { 
-  ExternalLink, 
   Eye, 
-  TrendingUp, 
-  Users,
   Calendar,
   ArrowRight
 } from 'lucide-react';

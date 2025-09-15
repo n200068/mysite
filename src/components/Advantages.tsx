@@ -8,7 +8,6 @@ import {
   Users, 
   Clock, 
   TrendingUp,
-  CheckCircle,
   Star
 } from 'lucide-react';
 
